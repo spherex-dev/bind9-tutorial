@@ -4,7 +4,7 @@ This repository provides and outline on how to setup a dns server using docker. 
 
 A basic setup is provided to allow machines inside of a network to set their own dns records. Authentication to the dns server is not setup, however this can be restricted via using a key or restricted using an ip address. If you are interested in learning more about the configuration syntax, documentation is available at this [link](https://bind9.readthedocs.io/en/latest/)
 
-A blog post about this setup can be found at our spherx site [here](https://www.spherex.dev/use-bind9-to-setup-a-home-domain/).
+A blog post about this setup can be found at our spherx site [here](https://www.spherex.dev/use-bind9-to-setup-a-home-dns-service/).
 
 # Prerequisites
 
