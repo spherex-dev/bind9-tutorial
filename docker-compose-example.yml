@@ -1,0 +1,17 @@
+version: "3.6"
+services:
+  bind9:
+    image: ubuntu/bind9:9.16-20.04_beta
+    ports:
+      - "172.16.81.120:53:53/tcp"
+      - "172.16.81.120:53:53/udp"
+    volumes:
+      - type: bind
+        source: ./etc/bind
+        target: /etc/bind
+      - type: bind
+        source: ./var/cache/bind/
+        target: /var/cache/bind/
+      - type: bind
+        source: ./var/lib/bind/
+        target: /var/lib/bind/

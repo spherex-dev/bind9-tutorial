@@ -1,0 +1,3 @@
+server 172.16.81.120
+update add test.home.int 3600 A 127.0.0.1
+send

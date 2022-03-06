@@ -1,0 +1,4 @@
+rndc.key
+*.jnl
+var/cache/bind
+docker-compose.yml

@@ -1,0 +1,13 @@
+$ORIGIN .
+$TTL 38400	; 10 hours 40 minutes
+home.int		IN SOA	my-machine.test.int. some.email.address. (
+				1592199096 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				38400      ; minimum (10 hours 40 minutes)
+				)
+			NS	my-machine.test.int.
+$ORIGIN home.int.
+$TTL 3600	; 1 hour
+test			A	127.0.0.1
